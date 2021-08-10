@@ -1,4 +1,4 @@
-package com.bareum.algorithm.day1;
+package com.bareum.algorithm.bruteforce;
 
 import com.bareum.algorithm.example.HelloWorld;
 

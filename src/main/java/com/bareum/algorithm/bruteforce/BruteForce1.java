@@ -1,4 +1,4 @@
-package com.bareum.algorithm.day1;
+package com.bareum.algorithm.bruteforce;
 
 import java.io.*;
 import java.util.*;
@@ -25,6 +25,7 @@ public class BruteForce1 {
         } else {
             for (int cand = 1; cand <= N; cand++) {
                 selected[k] = cand;
+                System.out.println(cand);
                 // K+1번~M번을 모두 탐색하는 일을 해야 하는 상황
                 rec_func(k + 1);
                 selected[k] = 0;
