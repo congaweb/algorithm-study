@@ -1,3 +1,6 @@
+/* 백준 15649번 N과 M(1)  */
+/* https://www.acmicpc.net/problem/15649 */
+
 function solution(N, M) {
     let answer = '';
     let selected = Array.from({length: M + 1}, () => 0);
